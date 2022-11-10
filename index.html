@@ -13,32 +13,43 @@
 <body>
     <div class="container">
         <!-- nav -->
-        <div class="header-nav">
+        <div class="header-nav bg-image">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                    <a class="nav-link active text-dark" aria-current="page" href="#"><h4>Portfolio</h4></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link text-dark" href="#"><h4>About</h4></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link text-dark" href="#"><h4>Contact</h4></a>
                 </li>
             </ul>
-        </div>
 
-        <!-- headline -->
+                    <!-- headline -->
 
         <div class="headline-container text-center">
-            <h1>Hey there. I’m Alex.</h1>
-            <h2>I’m a software developer</h2>
+            <h1>Hey there. I’m Alex.<br><span class="text-success">I’m a software developer</span></h1>
+            
             <p class="headline-paragraph"> I can help you build a product , feature or website Look through some of my
                 work
                 and experience! If you
                 like what you see and have a project you need coded,
                 don’t hestiate to contact me.</p>
-
+            <div>
+                <ul class="socials">
+                    <li><a href="#"><img src="images/SVG/github.svg" alt="..."></a></li>
+                    <li><a href="#"><img src="images/SVG/Linkedin icon.svg" alt="..."></a></li>
+                    <li><a href="#"><img src="images/SVG/angellist.svg" alt="..."></a></li>
+                    <li><a href="#"><img src="images/SVG/twitter.svg" alt="..."></a></li>
+                    <li><a href="#"><img src="images/SVG/medium.svg" alt="..."></a></li>
+                </ul>
+                <a href="#" class="action justify-content-center spacing1"><img src="images/SVG/Scroll-down.svg" alt="..."></a>
+            </div>
         </div>
+        </div>
+
+
 
         <!-- works section -->
         <div class="work-section">
@@ -53,11 +64,28 @@
                         <h5 class="card-title text-center">Multi-Post Stories Gain+Glory</h5>
                         <div class="text-center">
                             <div class="pb-3">
-                                <span class="badge bg-secondary">Ruby on rail</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">Javascript</span>
+                                <span class="badge bg-secondary p-2">Ruby on rail</span>
+                                <span class="badge bg-secondary p-2">CSS</span>
+                                <span class="badge bg-secondary p-2">Javascript</span>
                             </div>
-                            <a href="#modal_view_project" class="btn btn-success btn-lg">See Project</a>
+                            <a href="#modal_view_project" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modal">See Project</a>
+                            <div class="modal fade" id="modal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3>Multi-Post Stories Gain+Glory</h3>
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/SVG/Snapshoot Portfolio.svg" alt="...">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit similique quidem aspernatur impedit ipsa doloremque ea eos eaque fugit cumque, animi alias vel accusamus. Magnam voluptates cumque ipsam dolores ab?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn btn-primary" data-bs-dismiss="modal">Close</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,11 +98,28 @@
                         <h5 class="card-title text-center">Multi-Post Stories Gain+Glory</h5>
                         <div class="text-center">
                             <div class="pb-3">
-                                <span class="badge bg-secondary">Ruby on rail</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">Javascript</span>
+                                <span class="badge bg-secondary p-2">Ruby on rail</span>
+                                <span class="badge bg-secondary p-2">CSS</span>
+                                <span class="badge bg-secondary p-2">Javascript</span>
                             </div>
-                            <a href="#modal_view_project" class="btn btn-success btn-lg">See Project</a>
+                            <a href="#modal_view_project" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modal">See Project</a>
+                            <div class="modal fade" id="modal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3>Multi-Post Stories Gain+Glory</h3>
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/SVG/Snapshoot Portfolio.svg" alt="...">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit similique quidem aspernatur impedit ipsa doloremque ea eos eaque fugit cumque, animi alias vel accusamus. Magnam voluptates cumque ipsam dolores ab?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn btn-primary" data-bs-dismiss="modal">Close</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -87,11 +132,28 @@
                         <h5 class="card-title text-center">Multi-Post Stories Gain+Glory</h5>
                         <div class="text-center">
                             <div class="pb-3">
-                                <span class="badge bg-secondary">Ruby on rail</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">Javascript</span>
+                                <span class="badge bg-secondary p-2">Ruby on rail</span>
+                                <span class="badge bg-secondary p-2">CSS</span>
+                                <span class="badge bg-secondary p-2">Javascript</span>
                             </div>
-                            <a href="#modal_view_project" class="btn btn-success btn-lg">See Project</a>
+                            <a href="#modal_view_project" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modal">See Project</a>
+                            <div class="modal fade" id="modal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3>Multi-Post Stories Gain+Glory</h3>
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/SVG/Snapshoot Portfolio.svg" alt="...">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit similique quidem aspernatur impedit ipsa doloremque ea eos eaque fugit cumque, animi alias vel accusamus. Magnam voluptates cumque ipsam dolores ab?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn btn-primary" data-bs-dismiss="modal">Close</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,11 +166,28 @@
                         <h5 class="card-title text-center">Multi-Post Stories Gain+Glory</h5>
                         <div class="text-center">
                             <div class="pb-3">
-                                <span class="badge bg-secondary">Ruby on rail</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">Javascript</span>
+                                <span class="badge bg-secondary p-2">Ruby on rail</span>
+                                <span class="badge bg-secondary p-2">CSS</span>
+                                <span class="badge bg-secondary p-2">Javascript</span>
                             </div>
-                            <a href="#modal_view_project" class="btn btn-success btn-lg">See Project</a>
+                            <a href="#modal_view_project" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modal">See Project</a>
+                            <div class="modal fade" id="modal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3>Multi-Post Stories Gain+Glory</h3>
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/SVG/Snapshoot Portfolio.svg" alt="...">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit similique quidem aspernatur impedit ipsa doloremque ea eos eaque fugit cumque, animi alias vel accusamus. Magnam voluptates cumque ipsam dolores ab?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn btn-primary" data-bs-dismiss="modal">Close</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,11 +200,28 @@
                         <h5 class="card-title text-center">Multi-Post Stories Gain+Glory</h5>
                         <div class="text-center">
                             <div class="pb-3">
-                                <span class="badge bg-secondary">Ruby on rail</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">Javascript</span>
+                                <span class="badge bg-secondary p-2">Ruby on rail</span>
+                                <span class="badge bg-secondary p-2">CSS</span>
+                                <span class="badge bg-secondary p-2">Javascript</span>
                             </div>
-                            <a href="#modal_view_project" class="btn btn-success btn-lg">See Project</a>
+                            <a href="#modal_view_project" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modal">See Project</a>
+                            <div class="modal fade" id="modal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3>Multi-Post Stories Gain+Glory</h3>
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/SVG/Snapshoot Portfolio.svg" alt="...">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit similique quidem aspernatur impedit ipsa doloremque ea eos eaque fugit cumque, animi alias vel accusamus. Magnam voluptates cumque ipsam dolores ab?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn btn-primary" data-bs-dismiss="modal">Close</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -138,11 +234,28 @@
                         <h5 class="card-title text-center">Multi-Post Stories Gain+Glory</h5>
                         <div class="text-center">
                             <div class="pb-3">
-                                <span class="badge bg-secondary">Ruby on rail</span>
-                                <span class="badge bg-secondary">CSS</span>
-                                <span class="badge bg-secondary">Javascript</span>
+                                <span class="badge bg-secondary p-2">Ruby on rail</span>
+                                <span class="badge bg-secondary p-2">CSS</span>
+                                <span class="badge bg-secondary p-2">Javascript</span>
                             </div>
-                            <a href="#modal_view_project" class="btn btn-success btn-lg">See Project</a>
+                            <a href="#modal_view_project" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#modal">See Project</a>
+                            <div class="modal fade" id="modal">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3>Multi-Post Stories Gain+Glory</h3>
+                                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/SVG/Snapshoot Portfolio.svg" alt="...">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit similique quidem aspernatur impedit ipsa doloremque ea eos eaque fugit cumque, animi alias vel accusamus. Magnam voluptates cumque ipsam dolores ab?</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <div class="btn btn-primary" data-bs-dismiss="modal">Close</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -150,7 +263,7 @@
             </div>
 
             <div class="container">
-                <div class="heading2 spacing">
+                <div class="heading2 spacing bg-image2">
                     <!-- About me section -->
                     <h2>About me</h2>
                     <p class="headline-paragraph"> I can help you build a product , feature or website Look through some of
@@ -166,10 +279,10 @@
                             <h5 class="card-title text-center">Languages</h5>
                             <div class="text-center">
                                 <div class="pb-3">
-                                    <span class="badge bg-secondary">Ruby on rail</span>
-                                    <span class="badge bg-secondary">CSS</span>
-                                    <span class="badge bg-secondary">HTML</span>
-                                    <span class="badge bg-secondary">Javascript</span>
+                                    <span class="badge bg-secondary p-2 m-1">Ruby on rail</span>
+                                    <span class="badge bg-secondary p-2 m-1">CSS</span>
+                                    <span class="badge bg-secondary p-2 m-1">HTML</span>
+                                    <span class="badge bg-secondary p-2 m-1">Javascript</span>
                                 </div>
                             </div>
                         </div>
@@ -180,12 +293,12 @@
                         <div class="card-body">
                             <h5 class="card-title text-center">Frameworks</h5>
                             <div class="text-center">
-                                <div class="pb-3">
-                                    <span class="badge bg-secondary">Bootstrap</span>
-                                    <span class="badge bg-secondary">Ruby on rails</span>
-                                    <span class="badge bg-secondary">RSpec</span>
-                                    <span class="badge bg-secondary">Capybara</span>
-                                    <span class="badge bg-secondary">Selenium</span>
+                                <div>
+                                    <span class="badge bg-secondary p-2 m-1">Bootstrap</span>
+                                    <span class="badge bg-secondary p-2 m-1">Ruby on rails</span>
+                                    <span class="badge bg-secondary p-2 m-1">RSpec</span>
+                                    <span class="badge bg-secondary p-2 m-1">Capybara</span>
+                                    <span class="badge bg-secondary p-2 m-1">Selenium</span>
                                 </div>
                             </div>
                         </div>
@@ -196,12 +309,12 @@
                         <div class="card-body">
                             <h5 class="card-title text-center">Skills</h5>
                             <div class="text-center">
-                                <div class="pb-3">
-                                    <span class="badge bg-secondary">Codekit</span>
-                                    <span class="badge bg-secondary">GitHub</span>
-                                    <span class="badge bg-secondary">Codepen</span>
-                                    <span class="badge bg-secondary">Gitlab</span>
-                                    <span class="badge bg-secondary">Terminal</span>
+                                <div>
+                                    <span class="badge bg-secondary p-2 m-1">Codekit</span>
+                                    <span class="badge bg-secondary p-2 m-1">GitHub</span>
+                                    <span class="badge bg-secondary p-2 m-1">Codepen</span>
+                                    <span class="badge bg-secondary p-2 m-1">Gitlab</span>
+                                    <span class="badge bg-secondary p-2 m-1">Terminal</span>
                                 </div>
                             </div>
                         </div>
@@ -210,14 +323,14 @@
                 <!-- About me end section -->
             </div>
 
-            <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="container col-xl-10 col-xxl-8 px-4 py-5 bg-image3">
               <div class="row align-items-center g-lg-5 py-5">
                 <div class="col-lg-4 text-center text-lg-start">
                   <!-- <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1> -->
                   <p class="col-lg-10 fs-4">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
                 </div>
                 <div class="col-md-10 mx-auto col-lg-8">
-                  <form class="p-4 p-md-5 border rounded-3 bg-light">
+                  <form class="p-4 p-md-5">
                     <div class="form-floating mb-3">
                       <input type="name" class="form-control" id="floatingInput" placeholder="name">
                       <label for="floatingInput">Name</label>
